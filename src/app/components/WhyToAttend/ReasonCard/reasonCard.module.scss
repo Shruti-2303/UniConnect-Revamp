@@ -1,0 +1,26 @@
+.whyToAttendCard{
+    width: 50%;
+    display: flex;
+    gap: 28px;
+    height: 160px;
+    padding: 0px 28px;
+    // align-items: center;
+
+    .cardImg{
+        width: 12%;
+        height: 100%
+        
+    }
+    .cardContent{
+        width: 88%;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        .cardTitle{
+            font-size: 24px;
+            font-weight: 500;
+        }
+        
+    }
+}

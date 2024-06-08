@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: #FFFFFF;
+}
+
+#contentContainer{
+    width: 80%;
+    margin: 0px auto;
+}
+
+@media (max-width: 768px) {
+    #contentContainer{
+        width: 90%;
+        margin: 0px auto;
+    }
+}
+
+#AboutUsBrandAdvocates {
+    .slick-cloned {
+      .paddingLeft0 {
+        padding-left: 55px !important;
+      }
+    }
+    [data-index*="-"] {
+      .paddingLeft0 {
+        padding-left: 0px !important;
+      }
+      .paddingLeft {
+        padding-left: 0px !important;
+      }
+    }
+    .slick-slide {
+      width: 280px;
+      height: 400px;
+      .paddingLeft0 {
+        padding-left: 0;
+      }
+      .paddingLeft {
+        padding-left: 55px;
+      }
+    }
+    .slick-current {
+      padding-left: 0;
+      height: 480px;
+      img {
+        width: 280px;
+        height: 480px;
+      }
+    }
+    video::-webkit-media-controls-start-playback-button {
+      display: none !important;
+    }
+    video::-webkit-media-controls-volume-slider {
+      display: none !important;
+      appearance: none;
+      -webkit-appearance: none;
+    }
+    video::-webkit-media-controls-mute-button {
+      display: none !important;
+      appearance: none;
+      -webkit-appearance: none;
+    }
+    video::-webkit-media-controls-timeline {
+      display: none !important;
+      appearance: none;
+      -webkit-appearance: none;
+    }
+    video::-webkit-media-controls-current-time-display {
+      display: none !important;
+      appearance: none;
+      -webkit-appearance: none;
+    }
+    video::-webkit-media-controls-fullscreen-button {
+      display: none !important;
+      appearance: none;
+      -webkit-appearance: none;
+    }
+    video::-webkit-media-controls-timeline-container {
+      display: none !important;
+      appearance: none;
+      -webkit-appearance: none;
+    }
+    video::-webkit-media-controls-time-remaining-display {
+      display: none !important;
+      appearance: none;
+      -webkit-appearance: none;
+    }
+    video::-webkit-media-controls-enter-fullscreen-button {
+      display: none !important;
+      appearance: none;
+      -webkit-appearance: none;
+    }
+    body:-webkit-full-page-media {
+      background-color: black;
+    }
+    .media-controls-container {
+      display: none;
+      .media-controls {
+        .top-left {
+          display: none !important;
+        }
+      }
+    }
+  }

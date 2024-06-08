@@ -1,0 +1,49 @@
+.heroContainer{
+    width: 80%;
+    margin: 0px auto;
+    height: calc(100vh - 72px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+
+    .text{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        .title{
+            font-size: 52px;
+            font-weight: 600;
+            line-height: 60px;
+
+            .titleBlue{
+                color: #0487F3;
+            }
+        }
+
+        .subTitle{
+            font-size: 20px;
+        }
+
+        .mediaLogos{
+            display: flex;
+            gap: 24px;
+
+            div{
+                height: 24px;
+
+                img{
+                    height: 100%;
+                }
+            }
+        }
+
+    }
+    .image{
+        width: 45%;
+    }
+
+}

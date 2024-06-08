@@ -1,0 +1,57 @@
+.impactContainer{
+    background: rgba(4, 135, 243, 0.1);
+    height: max-content;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+
+    .impact{
+        width: 80%;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        .heading{
+            font-size: 44px;
+            font-weight: 500;
+    
+            .headingBlue{
+                color: #0487F3;
+            }
+        }
+    
+        .impactCards{
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+
+            .impactCard{
+                width: 20%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 8px;
+                .impactImg{
+                    display: flex;
+                    justify-content: center;
+                    img{
+                        width: 100%;
+                        height: 100px;
+                        border-radius: 12px;
+                    }
+                }
+                .impactCount{
+                    font-size: 32px;
+                    font-weight: 500;
+                    color: #0487F3;
+                }
+                .impactTitle{
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+            }
+
+        }
+    }
+
+}
