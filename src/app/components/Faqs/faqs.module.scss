@@ -1,0 +1,29 @@
+
+
+.faqsContainer{
+    background: #FFF;
+    height: max-content;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    .faqs{
+        width: 80%;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        .heading{
+            font-size: 44px;
+            font-weight: 500;
+    
+            .headingBlue{
+                color: #0487F3;
+            }
+        }
+
+        .faqsCollapse{
+            width: 100%;
+            
+        }
+    }
+}
