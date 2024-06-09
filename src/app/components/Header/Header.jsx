@@ -8,12 +8,12 @@ const Header = () => {
   return (
     <div className={styles.headerContainer}>
       <div id="contentContainer" className={styles.header}>
-        <div className={styles.logoContainer}>
+        <a className={styles.logoContainer} href="/">
           <img
             src={`${process.env.CLOUDINARY_URL}/v1717854754/UniConnect/uniconnect_logo_dark_xyc7ik.png`}
             alt="logo"
           />
-        </div>
+        </a>
         <div className={styles.linksContainer}>
           <div
             className={styles.whyToAttend}
