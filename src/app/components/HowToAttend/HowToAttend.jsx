@@ -3,7 +3,7 @@ import styles from "./howToAttend.module.scss";
 
 const HowToAttend = () => {
   return (
-    <div className={styles.howToAttendContainer}>
+    <div className={styles.howToAttendContainer} id="howToAttend">
       <div className={styles.howToAttend}>
         <div className={styles.heading}>
           How to

@@ -5,7 +5,7 @@ import { whyToAttendData } from "@/app/utils/constants";
 
 const WhyToAttend = () => {
   return (
-    <div className={styles.whyToAttendContainer}>
+    <div className={styles.whyToAttendContainer} id="whyToAttend">
       <div className={styles.whyToAttend}>
         <div className={styles.heading}>
           {" "}

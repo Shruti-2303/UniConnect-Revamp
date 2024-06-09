@@ -6,7 +6,7 @@ import { faqItems } from "@/app/utils/constants";
 
 const Faqs = () => {
   return (
-    <div className={styles.faqsContainer}>
+    <div className={styles.faqsContainer} id="faqs">
       <div className={styles.faqs}>
         <div className={styles.heading}>
           <span className={styles.headingBlue}>FAQs</span>

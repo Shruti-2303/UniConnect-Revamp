@@ -1,5 +1,8 @@
+"use client";
+
 import React from "react";
 import styles from "./header.module.scss";
+import { handleSectionScroll } from "@/app/utils/services";
 
 const Header = () => {
   return (
@@ -12,9 +15,25 @@ const Header = () => {
           />
         </div>
         <div className={styles.linksContainer}>
-          <div className={styles.whyToAttend}> Why Attend</div>
-          <div className={styles.howToAttend}>How to Attend</div>
-          <div className={styles.faqs}>FAQs</div>
+          <div
+            className={styles.whyToAttend}
+            onClick={() => handleSectionScroll("whyToAttend")}
+          >
+            {" "}
+            Why Attend
+          </div>
+          <div
+            className={styles.howToAttend}
+            onClick={() => handleSectionScroll("howToAttend")}
+          >
+            How to Attend
+          </div>
+          <div
+            className={styles.faqs}
+            onClick={() => handleSectionScroll("faqs")}
+          >
+            FAQs
+          </div>
           <div className={styles.login}>Login</div>
         </div>
       </div>
