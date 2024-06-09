@@ -47,3 +47,60 @@
     }
 
 }
+
+@media (max-width: 768px) {
+    .heroContainer{
+        width: 90%;
+        margin: 0px auto;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // justify-content: space-between;
+        gap: 40px;
+        padding-bottom: 6vh;
+        padding-top: 6vh;
+    
+        .text{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+    
+            .title{
+                font-size: 40px;
+                font-weight: 600;
+                line-height: 44px;
+                text-align: center;
+    
+                .titleBlue{
+                    color: #0487F3;
+                }
+            }
+    
+            .subTitle{
+                font-size: 18px;
+                text-align: center;
+            }
+    
+            .mediaLogos{
+                display: flex;
+                gap: 24px;
+                justify-content: center;
+    
+                div{
+                    height: 24px;
+    
+                    img{
+                        height: 100%;
+                    }
+                }
+            }
+    
+        }
+        .image{
+            width: 90%;
+        }
+    
+    }
+}

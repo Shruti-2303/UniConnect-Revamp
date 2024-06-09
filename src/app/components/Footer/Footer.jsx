@@ -97,6 +97,9 @@ const Footer = () => {
           <div onClick={scrollToTop} className={styles.backToTop}>
             Back to top {upArrow}
           </div>
+          <div onClick={scrollToTop} className={styles.backToTopMobile}>
+            {upArrow}
+          </div>
         </div>
       </div>
     </div>

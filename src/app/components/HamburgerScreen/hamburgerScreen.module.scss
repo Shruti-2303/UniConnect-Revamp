@@ -1,0 +1,16 @@
+.hamburgerScreen{
+    height: max-content;
+    width: 100vw;
+    background: rgba(255, 255, 255,0.9);
+    position: absolute;
+
+    .linksContainer{
+        width: 90%;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        padding: 16px 0px;
+        
+    }
+  }

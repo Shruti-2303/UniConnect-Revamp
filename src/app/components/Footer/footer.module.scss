@@ -57,7 +57,6 @@
 
                     img{
                         width: 24px;
-                        height: 24px;
                     }
                 }
             }   
@@ -83,7 +82,117 @@
                 background-color: rgba(211, 211, 211, 0.5);
             }
 
+            .backToTopMobile{
+                display: none;
+            }
+
         }
     }
   
+}
+
+
+@media (max-width: 768px) {
+    .footerContainer {
+        // background: rgba(4, 135, 243, 0.1);
+        background: #FFFFFF;
+        border-top: 1px solid lightgray;
+        padding: 60px 0;
+    
+        .footer{
+            width: 90%;
+            margin: 0px auto;
+            display: flex;
+            flex-direction: column;
+    
+            .footerUpper{
+                display: flex;
+                flex-direction: column;
+                gap: 32px;
+                // justify-content: space-between;
+    
+                .branding{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+    
+                    .brandTitle{
+                        font-weight: 400;
+                        font-size: 16px;
+                    }
+                    .brandTagline{
+                        font-weight: 400;
+                        font-size: 14px;
+                    }
+                }   
+                .connectUs{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+                    .title{
+                        font-weight: 400;
+                        font-size: 16px;
+                    }
+                    .contacts{
+                        display: flex;
+                        align-items: center;
+                        gap: 16px;
+                        font-weight: 400;
+                        font-size: 14px;
+                    }
+                }   
+                .socials{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+                    .logos{
+                        display: flex;
+                        gap: 16px;
+    
+                        img{
+                            width: 24px;
+                        }
+                    }
+                }   
+            }
+    
+            .footerLower{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 14px;
+
+                .copyright{
+                    width: 70%;
+                }
+
+                .backToTop{
+                    display: none;
+                }
+    
+                .backToTopMobile{
+                    width: 10%;
+                    cursor: pointer;
+                    display: flex;
+                    gap: 8px;
+                    justify-content: center;
+                    align-items: center;
+                    border: 1px solid black;
+                    border-radius: 6px;
+                    padding: 8px 8px;
+                }
+    
+                .backToTopMobile:hover{
+                    background-color: rgba(211, 211, 211, 0.5);
+                }
+    
+            }
+        }
+      
+    }
+    
+    
 }

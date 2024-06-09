@@ -7,17 +7,6 @@ body{
     background: #FFFFFF;
 }
 
-#contentContainer{
-    width: 80%;
-    margin: 0px auto;
-}
-
-@media (max-width: 768px) {
-    #contentContainer{
-        width: 90%;
-        margin: 0px auto;
-    }
-}
 
 .ant-collapse > .ant-collapse-item{
   font-family: "Rubik", sans-serif;

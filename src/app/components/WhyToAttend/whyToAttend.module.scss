@@ -57,3 +57,67 @@
     
 }
 
+
+@media (max-width: 768px) {
+    .whyToAttendContainer {
+        height: max-content;
+        padding-bottom: 10vh;
+        padding-top: 10vh;
+        background: #FFF;
+    
+        .whyToAttend {
+            width: 90%;
+            margin: 0px auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+            .heading{
+                font-size: 36px;
+                font-weight: 500;
+        
+                .headingBlue{
+                    color: #0487F3;
+                }
+            }
+    
+            .whyToAttendContent{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 32px;
+                // flex-wrap: wrap;
+                
+                //.whyToAttendCard{
+                //     width: 50%;
+                //     display: flex;
+                //     gap: 28px;
+                //     height: 160px;
+                //     padding: 0px 28px;
+                //     // align-items: center;
+    
+                //     .cardImg{
+                //         width: 12%;
+                //         height: 100%
+                        
+                //     }
+                //     .cardContent{
+                //         width: 88%;
+                //         display: flex;
+                //         flex-direction: column;
+                //         gap: 8px;
+    
+                //         .cardTitle{
+                //             font-size: 24px;
+                //             font-weight: 500;
+                //         }
+                        
+                //     }
+                // }
+            }
+        }
+    
+        
+    }
+        
+}

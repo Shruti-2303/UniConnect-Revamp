@@ -1,5 +1,3 @@
-
-
 .faqsContainer{
     background: #FFF;
     height: max-content;
@@ -23,7 +21,35 @@
 
         .faqsCollapse{
             width: 100%;
-            
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .faqsContainer{
+        background: #FFF;
+        height: max-content;
+        padding-bottom: 10vh;
+        padding-top: 10vh;
+        .faqs{
+            width: 90%;
+            margin: 0px auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+            .heading{
+                font-size: 36px;
+                font-weight: 500;
+        
+                .headingBlue{
+                    color: #0487F3;
+                }
+            }
+    
+            .faqsCollapse{
+                width: 100%;
+            }
         }
     }
 }
